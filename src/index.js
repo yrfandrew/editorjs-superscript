@@ -1,7 +1,6 @@
 /**
  * Build styles
  */
-require('./index.css').toString();
 
 /**
  * Superscript Tool for the Editor.js
