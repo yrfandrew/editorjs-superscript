@@ -33,7 +33,7 @@ var editor = EditorJS({
   
   tools: {
     ...
-    superscript: Superscript,
+    superscript: Superscript
   },
   
   ...

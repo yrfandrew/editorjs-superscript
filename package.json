@@ -1,26 +1,40 @@
 {
-  "name": "editorjs-superscript",
-  "version": "0.0.1",
-  "description": "Superscript Tool for highlighting text-fragments for the Editor.js.",
-  "main": "./dist/bundle.js",
-  "scripts": {
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development --watch"
+  "_from": "editorjs-superscript",
+  "_id": "editorjs-superscript@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-DZ9wxCHFhngqOLhlNxL56b1EjKhMP6DvsGbD/wm/VRvR/k/xIwrbnUctfH+XtETSIrNrxJLho+5fc/sP8NbiJg==",
+  "_location": "/editorjs-superscript",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "editorjs-superscript",
+    "name": "editorjs-superscript",
+    "escapedName": "editorjs-superscript",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yrfandrew/editorjs-superscript.git"
-  },
-  "keywords": [
-    "codex",
-    "editor",
-    "superscript",
-    "tool",
-    "editor.js",
-    "editorjs"
+  "_requiredBy": [
+    "#USER"
   ],
-  "author": "Andrew Ye",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/editorjs-superscript/-/editorjs-superscript-0.0.3.tgz",
+  "_shasum": "f6dfaec8833e09ed949947a42efb572ea80ee614",
+  "_spec": "editorjs-superscript",
+  "_where": "F:\\WorkStation\\manage.oms.ulucu.com\\pwa",
+  "author": {
+    "name": "Andrew Ye"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/yrfandrew/editorjs-superscript/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Superscript Tool for highlighting text-fragments for the Editor.js.",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
@@ -32,12 +46,25 @@
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2"
   },
-  "bugs": {
-    "url": "https://github.com/yrfandrew/editorjs-superscript/issues"
-  },
   "homepage": "https://github.com/yrfandrew/editorjs-superscript#readme",
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "keywords": [
+    "codex",
+    "editor",
+    "superscript",
+    "tool",
+    "editor.js",
+    "editorjs"
+  ],
+  "license": "MIT",
+  "main": "./dist/bundle.js",
+  "name": "editorjs-superscript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yrfandrew/editorjs-superscript.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "version": "0.0.3"
 }
