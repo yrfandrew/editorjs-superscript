@@ -1,6 +1,8 @@
+![](https://badgen.net/badge/Editor.js/v2.0/blue)
+
 # Superscript Tool
 
-Superscript Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
+Superscript Tool for marking text-fragments for the [Editor.js](https://ifmo.su/editor).
 
 ## Installation
 
@@ -33,7 +35,9 @@ var editor = EditorJS({
   
   tools: {
     ...
-    superscript: Superscript
+    superscript: {
+      class: Superscript
+    },
   },
   
   ...
@@ -52,7 +56,7 @@ Marked text will be wrapped with a `sup` tag.
 {
     "type" : "text",
     "data" : {
-        "text" : "Create a directory for your module, enter it and run <sup>npm init</sup> command."
+        "text" : "The Pacific Ocean encompasses approximately one-third of the Earth's surface, having an area of 165,200,000 km<sup>2</sup> (63,800,000 sq mi)."
     }
 }
 ```
