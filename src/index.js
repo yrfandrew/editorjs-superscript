@@ -8,6 +8,7 @@
  * Allows to wrap inline fragment and style it somehow.
  */
 class Superscript {
+
     /**
      * Class name for term-tag
      *
@@ -34,7 +35,7 @@ class Superscript {
          *
          * @type {string}
          */
-        this.tag = 'sup';
+        this.tag = 'SUP';
 
         /**
          * CSS classes
